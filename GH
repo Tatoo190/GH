@@ -1,0 +1,17 @@
+        website.sendText("Your Name","name","user-submitted-name","Lucas Ocampo");
+        website.sendText("Email Address","name","user-submitted-email","Lucas@gmail.com");
+        website.sendText("Product Title","name","user-submitted-title","Glass");
+        website.sendText("Product URL","name","user-submitted-url[]","Glass.com");
+        website.sendText("Product Tags","name","user-submitted-tags","game");
+      
+        website.sendText("Your Name","css",".usp-input","Lucas Ocampo");
+        website.sendText("Email Address","css",".usp-input","Lucas@gmail.com");
+        website.sendText("Product Title","css",".usp-input","Glass");
+        website.sendText("Product URL","css",".usp-input","Glass.com");
+        website.sendText("Product Tags","css",".usp-input","game");
+        
+        website.sendText("Your Name","xpath","div[@class='usp-input']","Lucas Ocampo");
+        website.sendText("Email Address","xpath","div[@class='usp-input']","Lucas@gmail.com");
+        website.sendText("Product Title","xpath","div[@class='usp-input']","Glass");
+        website.sendText("Product URL","xpath","div[@class='usp-input']","Glass.com");
+        website.sendText("Product Tags","xpath","div[@class='usp-input']","game");
